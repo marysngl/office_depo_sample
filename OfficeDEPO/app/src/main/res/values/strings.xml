@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">OfficeDEPO</string>
+
+    <!--Авторизация-->
+    <string name="login_title">Авторизация</string>
+    <string name="login_phone_hint">Телефон</string>
+    <string name="login_password_hint">Пароль</string>
+    <string name="login_remind_text"><u>Забыли пароль?</u></string>
+    <string name="login_enter">Войти</string>
+    <string name="login_or">или</string>
+    <string name="login_register">Зарегистрироваться</string>
+    <string name="login_error">Проверьте корректность введённых Вами данных</string>
+    <string name="login_error_empty_phone">Введите ваш номер телефона</string>
+    <string name="login_error_empty_password">Введите пароль</string>
+    <string name="login_password_alert_title">Подтвердите действие</string>
+    <string name="login_password_alert">На номер %1$s будет выслан код подтверждения, после чего Вам будет предложено ввести новый пароль</string>
+    <string name="login_password_remind_error">Введите, пожалуйста, Ваш номер телефона в соответствующее поле, затем нажмите \"Забыли пароль\"</string>
+    <string name="login_password_positive">Выслать</string>
+    <string name="login_password_negative">Отмена</string>
+
+    <!--Регистрация-->
+    <string name="register_title">Регистрация</string>
+    <string name="register_name_hint">Имя</string>
+    <string name="register_surname_hint">Фамилия</string>
+    <string name="register_phone_hint">Телефон (в формате +7…) </string>
+    <string name="register_confirm_phone">Подтвердить телефон</string>
+    <string name="register_confirmation_code_hint">Код подтверждения</string>
+    <string name="register_password_hint">Пароль</string>
+    <string name="register_register">Зарегистрироваться</string>
+    <string name="register_resend_instruction">В течение нескольких минут на Ваш номер придёт код подтверждения. Введите его в поле выше.</string>
+    <string name="register_resend_instruction_hdpi">В течение нескольких минут на Ваш номер придёт код подтверждения. Введите его в соответствующее поле.</string>
+    <string name="register_resend"><u>Выслать код повторно</u></string>
+    <string name="register_error">Такой номер уже зарегистрирован</string>
+    <string name="register_code_error">Введённый Вами код некорректен</string>
+    <string name="register_error_empty_name">Введите ваше имя</string>
+    <string name="register_error_empty_surname">Введите вашу фамилию</string>
+    <string name="register_error_empty_phone">Введите ваш номер телефона</string>
+    <string name="register_error_incorrect_phone_format">Убедитесь в корректности введённого Вами номера</string>
+    <string name="register_error_empty_confirmation_code">Введите код, который пришёл на ваш телефон; если код не пришёл - нажмите \"Выслать повторно\"</string>
+    <string name="register_error_empty_password">Пароль не может быть короче %1$d символов</string>
+
+    <!--Главный экран-->
+    <string name="main_get_user_error">Ошибка при получении данных с сервера</string>
+    <string name="main_get_hot_deals_error">Не удалось получить список текущих спецпредложений</string>
+    <string name="main_bonus_text_part_1">У Вас</string>
+    <string name="main_bonus_text_part_2">бонусных баллов</string>
+    <string name="main_expiration_date">Период действия бонусных баллов заканчивается %1$s в %2$s</string>
+    <string name="main_support_phone">576780</string>
+    <string name="main_call_alert">Позвонить на дежурный номер %1$s ?</string>
+    <string name="main_call_alert_title">Звонок</string>
+    <string name="main_call_positive">Позвонить</string>
+    <string name="main_call_negative">Отмена</string>
+
+    <!--Акции-->
+    <string name="deals_title">Акции</string>
+    <string name="deals_new">NEW</string>
+    <string name="deals_retrieve_error">Ошибка сервера при получении списка акций</string>
+    <string name="deals_currency">рублей</string>
+    
+    <!--История-->
+    <string name="history_title">История</string>
+    <string name="history_currency">рублей</string>
+    <string name="history_bonus">баллов</string>
+    <string name="history_period">В период с %1$s по %2$s</string>
+    <string name="history_wasted">Потрачено</string>
+    <string name="history_received">Получено</string>
+    <string name="history_retrieve_error">Ошибка сервера при получении истории</string>
+
+    <!--Настройки-->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_edit_profile"><u>Редактировать профиль</u></string>
+    <string name="settings_edit_password"><u>Сменить пароль</u></string>
+    <string name="settings_exit"><u>Выйти из приложения</u></string>
+
+    <!--Профиль-->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_name">Имя</string>
+    <string name="profile_surname">Фамилия</string>
+    <string name="profile_gender">Пол</string>
+    <string name="profile_gender_not_set">Не указан</string>
+    <string name="profile_phone">Телефон</string>
+    <string name="profile_save">Сохранить изменения</string>
+    <string name="profile_save_success">Изменения успешно сохранены</string>
+    <string name="profile_save_fail">Произошла ошибка во время сохранения</string>
+    <string name="profile_get_user_error">Ошибка при получении данных о пользователе</string>
+
+    <!--Пароль-->
+    <string name="password_title">Смена пароля</string>
+    <string name="password_old_password">Старый пароль</string>
+    <string name="password_confirmation_code">Код подтверждения</string>
+    <string name="password_new_password">Новый пароль</string>
+    <string name="password_repeat_new_password">Повторите новый пароль</string>
+    <string name="password_passwords_not_match">Пароли не совпадают</string>
+    <string name="password_save">Сохранить изменения</string>
+    <string name="password_save_fail">Ошибка при смене пароля (проверьте правильность старого пароля)</string>
+    <string name="password_confirm_fail">Ошибка при смене пароля (проверьте корректность кода)</string>
+    <string name="password_save_success">Пароль успешно изменён</string>
+    <string name="password_error_empty_old">Введите старый пароль</string>
+    <string name="password_error_empty_new">Введите новый пароль</string>
+    <string name="password_error_empty_code">Введите код подтверждения, который пришёл на Ваш телефон</string>
+    
+    <!--QR код-->
+    <string name="qr_title">Это Ваш личный QR-код</string>
+    <string name="qr_instructions">Приблизьте экран Вашего телефона к считывающему устройству. Необходимое для покупки количество баллов спишется автоматически.</string>
+    <string name="qr_back">Вернуться назад</string>
+    <string name="qr_generation_error">Ошибка при генерации QR кода</string>
+
+    <!--Прогресс-сообщения-->
+    <string name="standard_progress_dialog_message">Подождите, идёт загрузка данных..</string>
+    <string name="standard_progress_dialog_save_message">Подождите, идёт сохранение данных..</string>
+    <string name="standard_progress_dialog_login_message">Производится вход..</string>
+    <string name="standard_progress_dialog_check_code_message">Проверка кода..</string>
+    <string name="standard_progress_dialog_qr_message">Генерация QR кода..</string>
+
+    <!--Попапы-->
+    <string name="popup_standard_title">Уведомление</string>
+    <string name="popup_registered_event_title">Спасибо за регистрацию!</string>
+    <string name="popup_registered_event">В качестве первого бонуса Вам начислено %1$s баллов</string>
+    <string name="popup_purchase_event_title">Спасибо за покупку!</string>
+    <string name="popup_purchase_event">Покупка успешно оплачена. С Вашего счёта списано %1$s баллов.</string>
+
+    <!--Misc-->
+    <string name="no_connection_error">Для корректной работы приложения Вам необходим доступ к Интернету - пожалуйста, проверьте настройки</string>
+    <string name="phone_template">+7 (___) ___-____ </string>
+    
+</resources>

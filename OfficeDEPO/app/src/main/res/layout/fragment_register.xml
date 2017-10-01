@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:textAppearance="@style/TextAppearance.FontPath"
+              android:textColor="@color/colorPrimary"
+              android:padding="@dimen/activity_horizontal_margin"
+              android:layout_gravity="center"
+              android:text="@string/register_title"
+              android:textSize="26sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_name_edittext"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:textColor="@color/colorPrimary"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_textColorHint="@color/colorHint"
+        app:met_underlineColor="@color/colorPrimary"
+        app:met_errorColor="@color/colorError"
+        android:textAlignment="center"
+        android:inputType="textCapWords"
+        android:hint="@string/register_name_hint"
+        android:textColorHighlight="@color/colorHint"
+        android:padding="0dp"
+        android:textSize="12sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_surname_edittext"
+        android:textSize="12sp"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_textColorHint="@color/colorHint"
+        app:met_underlineColor="@color/colorPrimary"
+        app:met_errorColor="@color/colorError"
+        android:inputType="textCapWords"
+        android:hint="@string/register_surname_hint"
+        android:textColorHighlight="@color/colorHint"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_phone_edittext"
+        android:textSize="12sp"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_textColorHint="@color/colorHint"
+        app:met_underlineColor="@color/colorPrimary"
+        app:met_errorColor="@color/colorError"
+        android:inputType="phone"
+        android:hint="@string/register_phone_hint"
+        android:textColorHighlight="@color/colorHint"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/register_confirm_phone_button"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:layout_gravity="center"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="11dp"
+        android:textColor="@color/button_white_text_color_selector"
+        android:text="@string/register_confirm_phone"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

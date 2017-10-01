@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_confirm_code_edittext"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:textColor="@color/colorPrimaryDark"
+        app:met_baseColor="@color/colorPrimaryDark"
+        app:met_primaryColor="@color/colorPrimaryDark"
+        app:met_textColorHint="@color/colorHint"
+        app:met_underlineColor="@color/colorPrimaryDark"
+        app:met_errorColor="@color/colorError"
+        android:textAlignment="center"
+        android:inputType="textVisiblePassword"
+        android:hint="@string/register_confirmation_code_hint"
+        android:textColorHighlight="@color/colorHint"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@+id/register_password_edittext"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/register_password_edittext"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:textColor="@color/colorPrimaryDark"
+        app:met_baseColor="@color/colorPrimaryDark"
+        app:met_primaryColor="@color/colorPrimaryDark"
+        app:met_textColorHint="@color/colorHint"
+        app:met_underlineColor="@color/colorPrimaryDark"
+        app:met_errorColor="@color/colorError"
+        android:textAlignment="center"
+        android:inputType="textWebPassword"
+        android:hint="@string/register_password_hint"
+        android:textColorHighlight="@color/colorHint"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@+id/register_button"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/register_button"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:textColor="@color/button_purple_text_color_selector"
+        android:text="@string/register_register"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

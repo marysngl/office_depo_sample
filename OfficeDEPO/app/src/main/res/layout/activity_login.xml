@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary"
+              tools:context=".ui.Login.LoginActivity">
+
+    <FrameLayout
+        android:id="@+id/login_or_container"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="390dp"
+        android:background="@drawable/background_orange_round">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/login_enter_container"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:background="@drawable/background_violet_round">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/login_register_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+</RelativeLayout>

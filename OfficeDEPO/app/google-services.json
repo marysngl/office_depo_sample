@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "765306554920",
+    "firebase_url": "https://office-depo-loyality.firebaseio.com",
+    "project_id": "office-depo-loyality",
+    "storage_bucket": "office-depo-loyality.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765306554920:android:fc2cec2060229906",
+        "android_client_info": {
+          "package_name": "officedepo.mediapark.com.officedepo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765306554920-js864ij48157qkvuka88dup9e09ajs0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJk9-bP77ALD2HnH-tXQEctNnsVhinDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

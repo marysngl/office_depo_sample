@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                tools:context=".ui.Register.RegisterActivity">
+
+    <FrameLayout
+        android:id="@+id/register_code_confirm_container"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_marginTop="95dp"
+        android:layout_height="350dp"
+        android:background="@drawable/background_white_round">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/register_container"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/background_violet_round">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/register_resend_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+</RelativeLayout>

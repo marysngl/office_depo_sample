@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:textAppearance="@style/TextAppearance.FontPath"
+              android:textColor="@color/colorPrimary"
+              android:padding="@dimen/activity_horizontal_margin"
+              android:layout_gravity="center"
+              android:text="@string/login_title"
+              android:textSize="30sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/login_phone_edittext"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:textColor="@color/colorPrimary"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_textColorHint="@color/colorHint"
+        app:met_underlineColor="@color/colorPrimary"
+        app:met_errorColor="@color/colorError"
+        android:textAlignment="center"
+        android:inputType="phone"
+        android:hint="@string/login_phone_hint"
+        android:textColorHighlight="@color/colorHint"
+        android:padding="0dp"
+        android:textSize="20sp"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/login_password_edittext"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_textColorHint="@color/colorHint"
+        app:met_underlineColor="@color/colorPrimary"
+        app:met_errorColor="@color/colorError"
+        android:inputType="textWebPassword"
+        android:hint="@string/login_password_hint"
+        android:textColorHighlight="@color/colorHint"
+        android:padding="0dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/login_remind_button"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:textColor="@color/button_purple_text_color_selector"
+        android:text="@string/login_remind_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/login_enter_button"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:textColor="@color/button_white_text_color_selector"
+        android:text="@string/login_enter"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

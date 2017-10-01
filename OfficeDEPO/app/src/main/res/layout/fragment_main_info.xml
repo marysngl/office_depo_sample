@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:background="@drawable/info_background"
+            >
+
+                <TextView
+                    android:id="@+id/main_name_surname_textview"
+                    android:textAppearance="@style/TextAppearance.FontPath"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:textSize="20sp"
+                    />
+
+                <ImageView
+                    android:id="@+id/main_banner_puncture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/puncture"
+                    android:layout_marginTop="60dp"
+                    android:padding="10dp"
+                    android:visibility="invisible"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/main_banner_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="32dp"
+                    android:background="@drawable/banner_logo"
+                    android:orientation="horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="invisible"
+                    >
+
+                        <TextView
+                            android:id="@+id/main_banner_part_1_textview"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:textAppearance="@style/TextAppearance.FontPath"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_margin="5dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/main_banner_part_2_textview"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:textAppearance="@style/TextAppearance.FontPath"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorAccent"
+                            android:gravity="center"
+                            />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/main_settings_button"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="25dp"
+                    android:src="@drawable/settings"
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    />
+
+        </RelativeLayout>
+
+</RelativeLayout>

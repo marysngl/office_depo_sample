@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:src="@drawable/edit_profile_button"
+            />
+
+        <Button
+            android:id="@+id/edit_profile_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:background="@android:color/transparent"
+            android:text="@string/settings_edit_profile"
+            android:textColor="@color/button_white_text_color_selector"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:src="@drawable/password_button"
+            />
+
+        <Button
+            android:id="@+id/edit_password_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:background="@android:color/transparent"
+            android:text="@string/settings_edit_password"
+            android:textColor="@color/button_white_text_color_selector"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:src="@drawable/exit_button"
+            />
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center_vertical"
+            android:background="@android:color/transparent"
+            android:text="@string/settings_exit"
+            android:textColor="@color/button_white_text_color_selector"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
